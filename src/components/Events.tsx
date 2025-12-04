@@ -7,7 +7,7 @@ export function Events() {
       title: "Eastman Alumni Celebration",
       time: "7:00 PM",
       venue: "Eastmen School of Music",
-      price: "$25",
+      price: "Free Admission",
       description: "A special evening honoring the legacy of Eastman School of Music alumni with performances of beloved classics",
       isFree: true
     },
@@ -25,7 +25,7 @@ export function Events() {
       title: "Chamber and Coffee",
       time: "2:00 PM",
       venue: "Java's",
-      price: "Free Admission",
+      price: "$10",
       description: "Intimate chamber music performances in a casual, community-centered atmosphere",
       isFree: true
     },
