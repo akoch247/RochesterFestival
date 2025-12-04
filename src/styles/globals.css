@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #5B71C4;
+  --color-secondary: #E5B45D;
+  --color-accent: #4A5CA8;
+  --color-light: #FFFFFF;
+  --color-dark: #2D3748;
+}
+
+body {
+  font-family: "Poppins", "Arial", sans-serif;
+  @apply text-[--color-dark] bg-[--color-light];
+}
+
+h1 {
+  @apply tracking-normal;
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+h2 {
+  @apply tracking-normal;
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+h3 {
+  @apply tracking-normal;
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+h4 {
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+p {
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+button {
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+a {
+  font-family: "Poppins", "Arial", sans-serif;
+}
