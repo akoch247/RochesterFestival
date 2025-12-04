@@ -25,7 +25,7 @@ export function Events() {
       title: "Chamber and Coffee",
       time: "2:00 PM",
       venue: "Java's",
-      price: "$10",
+      price: "Free Admission",
       description: "Intimate chamber music performances in a casual, community-centered atmosphere",
       isFree: true
     },
