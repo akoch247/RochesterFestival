@@ -30,10 +30,10 @@ export function Mission() {
         {/* Mission & Vision */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl text-[--color-primary] mb-6">
-            our mission
+            Our Mission
           </h2>
           <p className="text-xl sm:text-2xl max-w-4xl mx-auto text-gray-700 mb-12">
-            the rochester orchestral chamber music festival is a grant-supported initiative dedicated to nurturing young professional musicians while fostering deep connections between artists, audiences, and the rochester community.
+            The rochester orchestral chamber music festival is a grant-supported initiative dedicated to nurturing young professional musicians while fostering deep connections between artists, audiences, and the rochester community.
           </p>
           <div className="w-24 h-2 bg-[--color-secondary] mx-auto rounded-full"></div>
         </div>
@@ -58,38 +58,38 @@ export function Mission() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Objectives */}
           <div className="bg-[--color-primary] text-black p-10 rounded-2xl shadow-xl">
-            <h3 className="text-3xl mb-6 text-[--color-secondary] text-center">our objectives</h3>
+            <h3 className="text-3xl mb-6 text-[--color-secondary] text-center">Our Objectives</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-[--color-secondary] rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-lg">professional-level rehearsals and concerts with quick turnaround times</span>
+                <span className="text-lg">Professional-level rehearsals and concerts with quick turnaround times.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-[--color-secondary] rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-lg">develop public speaking and community outreach skills</span>
+                <span className="text-lg">Develop public speaking and community outreach skills.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-[--color-secondary] rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-lg">build community within the orchestra and with diverse audiences</span>
+                <span className="text-lg">Build community within the orchestra and with diverse audiences.</span>
               </li>
             </ul>
           </div>
 
           {/* Impact */}
           <div className="bg-[--color-secondary] text-black p-10 rounded-2xl shadow-xl">
-            <h3 className="text-3xl mb-6 text-center">our impact</h3>
+            <h3 className="text-3xl mb-6 text-center">Our Impact</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-white rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-lg">collaborative learning that enhances existing musical skills</span>
+                <span className="text-lg">Collaborative learning that enhances existing musical skills.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-white rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-lg">pre-concert discussions connecting audiences with rochester's history</span>
+                <span className="text-lg">Pre-concert discussions connecting audiences with rochester's history.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-white rounded-full mt-2 flex-shrink-0"></div>
-                <span className="text-lg">strengthening connections between donors, audiences, and the arts</span>
+                <span className="text-lg">Strengthening connections between donors, audiences, and the arts.</span>
               </li>
             </ul>
           </div>
@@ -97,19 +97,19 @@ export function Mission() {
 
         {/* Strategy Highlights */}
         <div className="mt-16 text-center">
-          <h3 className="text-3xl text-[--color-primary] mb-8">what makes us unique</h3>
+          <h3 className="text-3xl text-[--color-primary] mb-8">What makes us unique</h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="p-6 bg-white border-2 border-[--color-secondary] rounded-2xl hover:shadow-lg transition-shadow">
-              <p className="text-lg">unique rochester venues</p>
+              <p className="text-lg">Unique Rochester Venues</p>
             </div>
             <div className="p-6 bg-white border-2 border-[--color-secondary] rounded-2xl hover:shadow-lg transition-shadow">
-              <p className="text-lg">unique ensemble sizes</p>
+              <p className="text-lg">Unique Ensemble Sizes</p>
             </div>
             <div className="p-6 bg-white border-2 border-[--color-secondary] rounded-2xl hover:shadow-lg transition-shadow">
-              <p className="text-lg">collaboration with rochester institutions</p>
+              <p className="text-lg">Collaboration With Rochester Institutions</p>
             </div>
             <div className="p-6 bg-white border-2 border-[--color-secondary] rounded-2xl hover:shadow-lg transition-shadow">
-              <p className="text-lg">young professional artist focus</p>
+              <p className="text-lg">Young Professional Artist Focus</p>
             </div>
           </div>
         </div>

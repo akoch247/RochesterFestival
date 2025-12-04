@@ -50,10 +50,10 @@ export function Support() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl text-[--color-primary] mb-6">
-            support the festival
+            Support The Festival
           </h2>
           <p className="text-xl sm:text-2xl max-w-3xl mx-auto text-gray-600 mb-8">
-            your support helps us build a sustainable future where musicians are compensated fairly and communities have access to world-class performances
+            Your support helps us build a sustainable future where musicians are compensated fairly and communities have access to world-class performances
           </p>
           <div className="w-24 h-2 bg-[--color-secondary] mx-auto rounded-full"></div>
         </div>
@@ -81,16 +81,16 @@ export function Support() {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Corporate Sponsorship */}
           <div className="bg-[--color-primary] text-black p-10 rounded-2xl shadow-xl">
-            <h3 className="text-4xl mb-6 text-[--color-secondary] text-center">corporate sponsorship</h3>
+            <h3 className="text-4xl mb-6 text-[--color-secondary] text-center">Corporate Sponsorship</h3>
             <p className="text-lg mb-6">
-              join leading rochester businesses in supporting the arts and connecting with the community
+              Join leading rochester businesses in supporting the arts and connecting with the community.
             </p>
             
             <div className="space-y-4 mb-8">
-              <h4 className="text-xl text-[--color-secondary]">current partners:</h4>
+              <h4 className="text-xl text-[--color-secondary]">Current partners:</h4>
               {corporateSponsors.map((sponsor, index) => (
                 <div key={index} className="flex justify-between items-center bg-white/10 p-4 rounded-xl">
-                  <span className="text-xl">{sponsor.name}</span>
+                  <span className="text-xl"> • {sponsor.name}</span>
                 </div>
               ))}
             </div>
@@ -99,23 +99,23 @@ export function Support() {
 
           {/* Individual Donations */}
           <div className="bg-[--color-secondary] text-black p-10 rounded-2xl shadow-xl">
-            <h3 className="text-4xl mb-6 text-center">individual giving</h3>
+            <h3 className="text-4xl mb-6 text-center">Individual Giving</h3>
             <p className="text-lg mb-6">
-              every donation, large or small, makes a direct impact on our musicians and community
+              Every donation, large or small, makes a direct impact on our musicians and community.
             </p>
             
             <div className="space-y-4 mb-8">
               <div className="bg-white/20 p-4 rounded-xl">
-                <p className="text-lg">• tax-deductible contributions</p>
+                <p className="text-lg">• Tax-deductible contributions</p>
               </div>
               <div className="bg-white/20 p-4 rounded-xl">
-                <p className="text-lg">• named recognition opportunities</p>
+                <p className="text-lg">• Named recognition opportunities</p>
               </div>
               <div className="bg-white/20 p-4 rounded-xl">
-                <p className="text-lg">• invitations to exclusive donor events</p>
+                <p className="text-lg">• Invitations to exclusive donor events</p>
               </div>
               <div className="bg-white/20 p-4 rounded-xl">
-                <p className="text-lg">• behind-the-scenes access</p>
+                <p className="text-lg">• Behind-the-scenes access</p>
               </div>
             </div>
 
@@ -127,9 +127,9 @@ export function Support() {
 
         {/* Impact Statement */}
         <div className="bg-gradient-to-r from-[--color-primary] to-[#4A5CA8] text-black p-12 rounded-2xl shadow-2xl text-center">
-          <h3 className="text-3xl sm:text-4xl mb-6 text-[--color-secondary]">your impact</h3>
+          <h3 className="text-3xl sm:text-4xl mb-6 text-[--color-secondary]">Your Impact</h3>
           <p className="text-xl sm:text-2xl max-w-4xl mx-auto mb-8">
-            together, we're building a vibrant musical community that strengthens the connection between donors, audiences, artists, and rochester's rich cultural heritage
+            Together, we're building a vibrant musical community that strengthens the connection between donors, audiences, artists, and rochester's rich cultural heritage
           </p>
           <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
@@ -141,7 +141,7 @@ export function Support() {
               <p className="text-lg">of intensive professional development</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-              <p className="text-4xl text-[--color-secondary] mb-2">free</p>
+              <p className="text-4xl text-[--color-secondary] mb-2">Free or low-cost</p>
               <p className="text-lg">majority of concerts open to all</p>
             </div>
           </div>

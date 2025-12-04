@@ -7,10 +7,10 @@ export function Musicians() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl text-[--color-primary] mb-6">
-            young professional musicians
+            Young Professional Musicians
           </h2>
           <p className="text-xl sm:text-2xl max-w-3xl mx-auto text-gray-600">
-            our festival brings together talented musicians who are early in their professional careers
+            Our festival brings together talented musicians who are early in their professional careers
           </p>
         </div>
 
@@ -26,16 +26,16 @@ export function Musicians() {
 
           {/* Content */}
           <div className="order-1 lg:order-2">
-            <h3 className="text-3xl text-[--color-primary] mb-6">who can participate</h3>
+            <h3 className="text-3xl text-[--color-primary] mb-6">Who can participate</h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-[--color-primary] text-[--color-secondary] rounded-full flex items-center justify-center flex-shrink-0">
                   <GraduationCap size={24} />
                 </div>
                 <div>
-                  <h4 className="text-xl text-[--color-primary] mb-2">education requirement</h4>
+                  <h4 className="text-xl text-[--color-primary] mb-2">Education requirement</h4>
                   <p className="text-lg text-gray-600">
-                    all participating musicians must hold a bachelor's degree in music or a related field
+                    All participating musicians must hold a bachelor's degree in music or a related field
                   </p>
                 </div>
               </div>
@@ -45,9 +45,9 @@ export function Musicians() {
                   <Award size={24} />
                 </div>
                 <div>
-                  <h4 className="text-xl text-[--color-primary] mb-2">professional focus</h4>
+                  <h4 className="text-xl text-[--color-primary] mb-2">Professional focus</h4>
                   <p className="text-lg text-gray-600">
-                    we support early-career musicians with professional-level rehearsals, performances, and development opportunities
+                    We support early-career musicians with professional-level rehearsals, performances, and development opportunities
                   </p>
                 </div>
               </div>
@@ -57,9 +57,9 @@ export function Musicians() {
                   <Users2 size={24} />
                 </div>
                 <div>
-                  <h4 className="text-xl text-[--color-primary] mb-2">future compensation</h4>
+                  <h4 className="text-xl text-[--color-primary] mb-2">Future compensation</h4>
                   <p className="text-lg text-gray-600">
-                    this grant-supported festival aims to eventually provide compensation for all participating musicians
+                    This grant-supported festival aims to eventually provide compensation for all participating musicians
                   </p>
                 </div>
               </div>
@@ -79,7 +79,7 @@ export function Musicians() {
               className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[--color-primary]/80 to-transparent flex items-end p-6">
-              <p className="text-white text-xl">chamber ensembles</p>
+              <p className="text-white text-xl">Chamber ensembles</p>
             </div>
           </div>
 
@@ -90,7 +90,7 @@ export function Musicians() {
               className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[--color-primary]/80 to-transparent flex items-end p-6">
-              <p className="text-white text-xl">solo artists</p>
+              <p className="text-white text-xl">Solo artists</p>
             </div>
           </div>
 
@@ -101,7 +101,7 @@ export function Musicians() {
               className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[--color-primary]/80 to-transparent flex items-end p-6">
-              <p className="text-white text-xl">unique venues</p>
+              <p className="text-white text-xl">Unique venues</p>
             </div>
           </div>
         </div>

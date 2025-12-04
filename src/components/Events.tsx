@@ -7,7 +7,7 @@ export function Events() {
       title: "Eastman Alumni Celebration",
       time: "7:00 PM",
       venue: "Eastmen School of Music",
-      price: "Free Admission",
+      price: "$25",
       description: "A special evening honoring the legacy of Eastman School of Music alumni with performances of beloved classics",
       isFree: true
     },
@@ -16,7 +16,7 @@ export function Events() {
       title: "The Planets at the Planetarium",
       time: "8:00 PM",
       venue: "Rochester Planetarium",
-      price:  "Free Admission",
+      price:  "$35",
       description: "Experience Holst's iconic suite under the stars in an immersive planetarium setting",
       isFree: true
     },
@@ -34,7 +34,7 @@ export function Events() {
       title: "Film Orchestra",
       time: "7:30 PM",
       venue: "Historic Theater",
-      price:  "Free Admission",
+      price:  "$15",
       description: "Live orchestral accompaniment to classic film, showcasing the power of music in cinema",
       isFree: true
     },
@@ -54,10 +54,10 @@ export function Events() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl text-[--color-primary] mb-6">
-            festival events
+            Festival Events
           </h2>
           <p className="text-xl sm:text-2xl max-w-3xl mx-auto text-gray-600">
-            five days of extraordinary performances across unique rochester venues
+            Five days of extraordinary performances across unique rochester venues
           </p>
          
         </div>
