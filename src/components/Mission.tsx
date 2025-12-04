@@ -57,8 +57,8 @@ export function Mission() {
         {/* Objectives & Impact */}
         <div className="grid md:grid-cols-2 gap-12">
           {/* Objectives */}
-          <div className="bg-[--color-primary] text-white p-10 rounded-2xl shadow-xl">
-            <h3 className="text-3xl mb-6 text-[--color-secondary]">our objectives</h3>
+          <div className="bg-[--color-primary] text-black p-10 rounded-2xl shadow-xl">
+            <h3 className="text-3xl mb-6 text-[--color-secondary] text-center">our objectives</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-[--color-secondary] rounded-full mt-2 flex-shrink-0"></div>
@@ -76,8 +76,8 @@ export function Mission() {
           </div>
 
           {/* Impact */}
-          <div className="bg-[--color-secondary] text-white p-10 rounded-2xl shadow-xl">
-            <h3 className="text-3xl mb-6">our impact</h3>
+          <div className="bg-[--color-secondary] text-black p-10 rounded-2xl shadow-xl">
+            <h3 className="text-3xl mb-6 text-center">our impact</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-white rounded-full mt-2 flex-shrink-0"></div>

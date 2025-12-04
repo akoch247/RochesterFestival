@@ -17,7 +17,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto mt-20">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl mb-6 text-[--color-secondary] lowercase">
-          rochester orchestral chamber music festival
+          Rochester Orchestral Chamber Music Festival
         </h1>
         <p className="text-xl sm:text-2xl lg:text-3xl mb-8 max-w-3xl mx-auto">
           A celebration of young professional musicians, unique ensembles, and rochester's rich musical heritage
@@ -36,10 +36,10 @@ export function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-wrap justify-center gap-6">
-          <button className="bg-[--color-secondary] hover:bg-[--color-secondary]/90 text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105 shadow-xl">
+        <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[--color-primary] text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">
             register now
           </button>
-          <button className="bg-white hover:bg-gray-100 text-[--color-primary] px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105 shadow-xl">
+          <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[--color-primary] text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">
             buy tickets
           </button>
           <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[--color-primary] text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">

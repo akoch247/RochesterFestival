@@ -6,7 +6,7 @@ export function Events() {
       day: "Thursday Evening",
       title: "Eastman Alumni Celebration",
       time: "7:00 PM",
-      venue: "TBD",
+      venue: "Eastmen School of Music",
       price: "Free Admission",
       description: "A special evening honoring the legacy of Eastman School of Music alumni with performances of beloved classics",
       isFree: true
@@ -16,15 +16,15 @@ export function Events() {
       title: "The Planets at the Planetarium",
       time: "8:00 PM",
       venue: "Rochester Planetarium",
-      price: "Ticketed Event",
+      price:  "Free Admission",
       description: "Experience Holst's iconic suite under the stars in an immersive planetarium setting",
-      isFree: false
+      isFree: true
     },
     {
       day: "Saturday Afternoon",
       title: "Chamber and Coffee",
       time: "2:00 PM",
-      venue: "Local Coffee House",
+      venue: "Java's",
       price: "Free Admission",
       description: "Intimate chamber music performances in a casual, community-centered atmosphere",
       isFree: true
@@ -34,9 +34,9 @@ export function Events() {
       title: "Film Orchestra",
       time: "7:30 PM",
       venue: "Historic Theater",
-      price: "Ticketed Event",
+      price:  "Free Admission",
       description: "Live orchestral accompaniment to classic film, showcasing the power of music in cinema",
-      isFree: false
+      isFree: true
     },
     {
       day: "Sunday Afternoon",
@@ -59,9 +59,7 @@ export function Events() {
           <p className="text-xl sm:text-2xl max-w-3xl mx-auto text-gray-600">
             five days of extraordinary performances across unique rochester venues
           </p>
-          <div className="mt-6 inline-block bg-[--color-secondary] text-white px-6 py-3 rounded-full">
-            <p className="text-lg">wednesday–sunday summer festival</p>
-          </div>
+         
         </div>
 
         {/* Events Grid */}
@@ -119,14 +117,6 @@ export function Events() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Note about free events */}
-        <div className="text-center bg-white p-8 rounded-2xl shadow-lg">
-          <p className="text-xl text-gray-600">
-            most concerts are <span className="text-[--color-primary]">free to attend</span>. 
-            only friday and saturday evening performances require tickets.
-          </p>
         </div>
       </div>
     </section>

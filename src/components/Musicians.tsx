@@ -17,8 +17,8 @@ export function Musicians() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Image */}
           <div className="order-2 lg:order-1">
-            <ImageWithFallback
-              src="https://images.unsplash.com/photo-1648797123841-bff72d5e0846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHByb2Zlc3Npb25hbCUyMG11c2ljaWFuc3xlbnwxfHx8fDE3NjQ4NTU1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            <img
+              src="/youngmusic.jpg"
               alt="Young professional musicians"
               className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
             />
@@ -66,9 +66,6 @@ export function Musicians() {
             </div>
 
             <div className="mt-8">
-              <button className="bg-[--color-secondary] hover:bg-[--color-secondary]/90 text-white px-8 py-4 rounded-full text-xl transition-all transform hover:scale-105 shadow-lg">
-                apply to perform
-              </button>
             </div>
           </div>
         </div>
@@ -98,8 +95,8 @@ export function Musicians() {
           </div>
 
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <ImageWithFallback
-              src="https://images.unsplash.com/photo-1610254449353-5698372fa83b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGFzc2ljYWwlMjBjb25jZXJ0JTIwaGFsbHxlbnwxfHx8fDE3NjQ4NTU1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            <img
+              src="/uniquevenue.png"
               alt="Concert venue"
               className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-300"
             />

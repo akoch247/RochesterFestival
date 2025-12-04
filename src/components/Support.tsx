@@ -80,8 +80,8 @@ export function Support() {
         {/* Ways to Give */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Corporate Sponsorship */}
-          <div className="bg-[--color-primary] text-white p-10 rounded-2xl shadow-xl">
-            <h3 className="text-3xl mb-6 text-[--color-secondary]">corporate sponsorship</h3>
+          <div className="bg-[--color-primary] text-black p-10 rounded-2xl shadow-xl">
+            <h3 className="text-4xl mb-6 text-[--color-secondary] text-center">corporate sponsorship</h3>
             <p className="text-lg mb-6">
               join leading rochester businesses in supporting the arts and connecting with the community
             </p>
@@ -91,19 +91,15 @@ export function Support() {
               {corporateSponsors.map((sponsor, index) => (
                 <div key={index} className="flex justify-between items-center bg-white/10 p-4 rounded-xl">
                   <span className="text-xl">{sponsor.name}</span>
-                  <span className="text-sm text-[--color-secondary]">{sponsor.type}</span>
                 </div>
               ))}
             </div>
 
-            <button className="w-full bg-[--color-secondary] hover:bg-[--color-secondary]/90 text-white py-4 rounded-full text-xl transition-all transform hover:scale-105">
-              become a corporate sponsor
-            </button>
           </div>
 
           {/* Individual Donations */}
-          <div className="bg-[--color-secondary] text-white p-10 rounded-2xl shadow-xl">
-            <h3 className="text-3xl mb-6">individual giving</h3>
+          <div className="bg-[--color-secondary] text-black p-10 rounded-2xl shadow-xl">
+            <h3 className="text-4xl mb-6 text-center">individual giving</h3>
             <p className="text-lg mb-6">
               every donation, large or small, makes a direct impact on our musicians and community
             </p>
@@ -130,7 +126,7 @@ export function Support() {
         </div>
 
         {/* Impact Statement */}
-        <div className="bg-gradient-to-r from-[--color-primary] to-[#4A5CA8] text-white p-12 rounded-2xl shadow-2xl text-center">
+        <div className="bg-gradient-to-r from-[--color-primary] to-[#4A5CA8] text-black p-12 rounded-2xl shadow-2xl text-center">
           <h3 className="text-3xl sm:text-4xl mb-6 text-[--color-secondary]">your impact</h3>
           <p className="text-xl sm:text-2xl max-w-4xl mx-auto mb-8">
             together, we're building a vibrant musical community that strengthens the connection between donors, audiences, artists, and rochester's rich cultural heritage
