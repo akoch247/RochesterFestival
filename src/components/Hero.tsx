@@ -36,13 +36,13 @@ export function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-wrap justify-center gap-6">
-        <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[--color-primary] text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">
+        <button className="bg-transparent border-2 border-white  text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">
             register now
           </button>
-          <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[--color-primary] text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">
+          <button className="bg-transparent border-2 border-white text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">
             buy tickets
           </button>
-          <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[--color-primary] text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">
+          <button className="bg-transparent border-2 border-white  text-white px-10 py-4 rounded-full text-xl transition-all transform hover:scale-105">
             donate
           </button>
         </div>
